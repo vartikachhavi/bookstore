@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>book store</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="stylecategories.css" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body >
+        <div id=wrap>
+            <div class="header">
+               
+                <a href="index.html">
+                <img src="logo.jpg">
+            </a>    
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown1"><a  href="bscategories1.html" class="dropbtn1">CATEGORIES</a>
+                      <div class="dropdown-content1">
+                        <a class="active"href="bscatrgories1.html">PROGRAMMING AND DATA STRUCTURES</a>
+                        <a href="bscategories2.html">NETWORKING</a>
+                        <a href= "bscategories3.html">ALGORITHM</a>
+                        <a href= "bscategories4.html">COMPILERS AND AUTOMATA THEORY</a>
+                        <a href= "dbms.html">DATABASE MANAGEMENT SYSTEMS</a>
+                      </div>
+                    </li>
+                    <li><a href="REGISTER.HTML">REGISTER</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="contactus.html">ABOUT US</a></li>   
+                </ul>
+            </div>     
+        </div>  
+
+               <div class="book">
+                 <div class="bimage"><img src="c.jpg" width="100" height="90" ></div>
+                   <div class="bdesc"><h2>The C Programming Language</h2> 
+                    Author: Brian W. Kernighan, Dennis M. Ritchie<br>
+                    Publisher: Prentice Hall<br>
+                    Edition: Second Edition  </div>
+                  <div class="click"> <button class="bttn" onclick="myFunction1()">Book Description</button>
+
+                    <p id="demo1"></p>
+                    
+                    <script>
+                    function myFunction1() {
+                      document.getElementById("demo1").innerHTML = "Present the complete guide to ANSI standard C language programming"
+                    }
+                    </script>
+    </div> 
+                   <div class="bt"><a href="http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf" >
+                    <button class="btn" ><i class="fa fa-download"></i> Download</button>
+                   </a>
+                  </div>
+              </div>
+                <div class="book">
+                  <div class="bimage"><img src="ds.jpg" width="100" height="90"></div>
+                        <div class="bdesc"><h2>Data Structure Using C</h2> 
+                          Author:Reema Thareja<br>
+                          Publisher:Oxford<br>
+                          Edition: Second Edition  </div>
+                        <div class="click"> <button class="bttn" onclick="myFunction2()">Book Description</button>
+                          <p id="demo2"></p>
+                          
+                          <script>
+                          function myFunction2() {
+                            document.getElementById("demo2").innerHTML = "Provide the abstract concepts of data structures as well as its implementation in C ."
+                          }
+                          </script>
+          </div> 
+                         <div class="bt"> <a href="http://masterraghu.com/subjects/Datastructures/ebooks/rema%20thareja.pdf">
+                          <button class="btn"><i class="fa fa-download"></i> Download</button></a>
+                </div>
+                </div>
+                   <div class="book">
+                    <div class="bimage"><img src="cohoon.jpg" width="100" height="90" ></div>
+                      <div class="bdesc"><h2 class="last">C++ Programming Language</h2> 
+                       Author:Coohon and Davidson<br>
+                       Publisher: McGraw-Hill Inc.<br>
+                       Edition: Third Edition  </div>
+                     <div class="click"> <button class="bttn" onclick="myFunction3()">Book Description</button>
+   
+                       <p id="demo3"></p>
+                       
+                       <script>
+                       function myFunction3() {
+                         document.getElementById("demo3").innerHTML = "Present the complete guide to ANSI standard C++ language programming"
+                       }
+                       </script>
+       </div> 
+                      <div class="bt"><a href="https://www.scribd.com/doc/55618023/c" >
+                       <button class="btn" ><i class="fa fa-download"></i> Download</button>
+                      </a>
+                     </div>
+                    </div>
+                    <div class="book">
+                    <div class="bimage"><img src="dsk.jpg" width="100" height="90" ></div>
+                      <div class="bdesc"><h2>Data Structure and Algoirthm made easy</h2> 
+                       Author:Karumanchi MR Narasimha<br>
+                       Publisher:CreateSpace<br>
+                       Edition:Fifth Edition  </div>
+                     <div class="click"> <button class="bttn" onclick="myFunction4()">Book Description</button>
+   
+                       <p id="demo4"></p>
+                       
+                       <script>
+                       function myFunction4() {
+                         document.getElementById("demo4").innerHTML = "Comprises chapters on recursion and backtracking, linked lists, stacks, queues etc"
+                       }
+                       </script>
+       </div> 
+                      <div class="bt"><a href="https://www.docdroid.net/ZPfHmS5/data-structures-and-algorithms-narasimha-karumanchi-pdf#page=17" >
+                       <button class="btn" ><i class="fa fa-download"></i> Download</button>
+                      </a>
+                     </div>
+                    </div>
+    
+                    <div class="footer" >
+                      <div class="popup" onclick="myFunction()">ABOUT US
+                        <span class="popuptext" id="myPopup"><p>VARTIKA CHHAVI(MCA/10003/18)<br> NITYA NARAIN(MCA/10018/18)<p></span>
+                      </div>
+                     
+                      
+                      <div class="left_footer">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                      </div>
+                      <script>
+                        function myFunction() {
+                        var popup = document.getElementById("myPopup");
+                        popup.classList.toggle("show");
+                        }
+                       </script>
+                
+                
+                    
+                
+
+
+</body>
+
+
+</html>    

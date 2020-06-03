@@ -1,0 +1,295 @@
+body
+{
+background-color:#6F605A;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0px auto auto auto;
+color:#000000;
+
+}
+a{
+    color:#f8981d;
+ }
+ p{
+    padding:5px 0 5px 0;
+    margin:0px;
+    text-align:justify;
+    line-height:19px;
+ }
+ .book
+ {
+    background-color: lightgrey;
+    width:95%;
+    border: 5px solid #3B5998;
+    padding:0px;
+    margin:auto;
+    position: relative;
+    
+ }
+ .bimage{
+  float: left;
+ }
+ .bdesc{
+   margin-left:15%;
+   margin-right:40%;
+ }
+ .bt{
+ position: absolute;
+ right:2%;
+ bottom: 5%;
+ }
+ a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+ .click{
+  position: absolute;
+  right:25%;
+  top: 10%;
+ }
+ .btn { 
+  background-color: DodgerBlue;
+  border: none;
+  width:120%;
+  color: white;
+  padding:0px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  float: right;
+ }
+.btn:hover {
+  background-color: RoyalBlue;
+}
+ .header {
+        background-image:url(download.jpg);
+        text-align: center;
+        padding: 20px;
+      }
+ li {
+        display: inline;
+} 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  } 
+ 
+.column {
+    float: left;
+    width: 25%;
+    height:60%;
+    padding: 15px;
+    border:inset black 5px;
+    
+     
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  li.dropdown1 {
+    display: inline-block;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content1 a:hover {background-color:green;}
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  .dropbtn1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .left_footer{
+    float:left;
+    padding:10px 0 0 10px;
+    }
+    .right_footer{
+    float:right;
+    padding:10px 10px 0 0;
+    }
+    .footer a{
+    text-decoration:none;
+    padding:0 5px 0 5px;
+    color:#afaeaf;
+    }
+    .popup {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+  
+    .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      background-color:BLACK;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80px;
+    }
+    
+    
+    .popup .popuptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color:BLACK transparent transparent transparent;
+    }
+    
+    
+    .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+    }
+    
+    
+    @-webkit-keyframes .popup .popuptext fadeIn {
+      from {opacity: 0;} 
+      to {opacity: 1;}
+    }
+    
+    @keyframes .popup .popuptext fadeIn {
+      from {opacity: 0;}
+      to {opacity:1 ;}
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+    

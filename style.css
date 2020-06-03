@@ -1,0 +1,414 @@
+body
+{
+background-color:#6F605A;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0px auto auto auto;
+color:#000000;
+background-image: url("k7.jpg");
+}
+h2
+{
+  color:ivory;
+}
+.dropdown img{
+  margin:5px;
+  padding:5px;
+}
+.dropdown a{
+    color:red;
+    text-align:center;
+ }
+ #mySidenav a {
+  position: absolute;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  right:0;
+}
+
+#about {
+  top:100px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 140px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 200px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 260px;
+  background-color: #555
+}
+#ABC {
+  top:320px;
+  background-color: #4CAF50;
+}
+
+#DEF {
+  top: 370px;
+  background-color: #2196F3;
+}
+
+#GHI {
+  top: 420px;
+  background-color: #f44336;
+}
+
+#JKL {
+  top:480px;
+  background-color: #555
+}
+
+ p{
+    padding:5px 0 5px 0;
+    margin:0px;
+    text-align:justify;
+    line-height:19px;
+ }
+
+ .header {
+        background-image:url(download.jpg);
+        
+        text-align: center;
+        padding: 20px;
+      }
+ li {
+        display: inline;
+} 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:green;
+  } 
+ 
+.column {
+    float: left;
+    width:30%;
+    height:80%;
+    padding: 15px;
+    border:inset black 5px;
+    background-image: url("k7.jpg");
+  
+     
+  }
+  .pill-nav a {
+    display: block;
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .pill-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .pill-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   
+  }
+  .btn1 {
+    background-color:green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+ 
+  .btn1:hover {
+    background-color:red;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+      
+    }
+  }  
+  .footer {
+      height:auto;
+    background-color:black;
+    padding: 10px;
+    text-align: center;
+      color:WHITE;
+      background-image: url("ack.jpg");
+    
+    
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc{
+    font-size-adjust:inherit;
+    color: ivory;
+  
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  li.dropdown1 {
+    display: inline-block;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+  }
+  
+  .dropdown-content1 a:hover {background-color:green;}
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  .dropbtn1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .left_footer{
+    float:center;
+    padding:10px 0 0 10px;
+    }
+    .right_footer{
+    float:center;
+    padding:10px 10px 0 0;
+    }
+    .footer a{
+    text-decoration:none;
+    padding:0 5px 0 5px;
+    color:#afaeaf;
+    }
+    .popup {
+      position: relative;
+      
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      float:center;
+    }
+    
+  
+    .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      background-color:BLACK;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80px;
+    }
+    
+    
+    .popup .popuptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color:BLACK transparent transparent transparent;
+    }
+    
+    
+    .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+    }
+    
+
+    .fa {
+      padding: 20px;
+      font-size: 40px;
+      width: 40px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px; 
+    }
+    
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+    .book h2
+    {
+      color:black;
+    }
+    .btn1 a{
+      color:white;
+    }
+    
+   
+   
