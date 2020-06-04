@@ -75,7 +75,7 @@ span.psw {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" id="psw" required>
         
-    <button onclick="validate()" submit">Login</button>
+    <button onclick="validate()" type="submit">Login</button>
 
     <script>
       
@@ -85,12 +85,11 @@ span.psw {
   var password = document.getElementById("text").value;
   if (username.length==0 )
   {
-  alert("you cant be blank");
+  alert("Username name cannot be null");
   }
-  if(username=="var" && password=="1234")
+  if(password.length>=6)
   {
-  window.location="index.html";
-  alert("valid user logging in");
+  alert("Password too small");
   }
   else
   {
