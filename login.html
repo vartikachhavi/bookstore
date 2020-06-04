@@ -75,12 +75,30 @@ span.psw {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
         
-    <button onclick="myFunction()" submit">Login</button>
+    <button onclick="validate()" submit">Login</button>
 
     <script>
       function myFunction() {
         alert("Logging in....................");
       }
+            function validate()
+  {
+  var username = document.getElementById("t1").value;
+  var password = document.getElementById("t2").value;
+  if (username.length==0 )
+  {
+  alert("you cant be blank");
+  }
+  if(username=="var" && password=="1234")
+  {
+  window.location="index.html";
+  }
+  else
+  {
+  alert("invalid user");
+  
+  }
+  }
       </script>
 
     <label>
