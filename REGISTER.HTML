@@ -93,27 +93,24 @@ a {
     <hr>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-    <button onclick="myFunction()" onclick="return Validate()" type="submit" class="registerbtn">Register</button>
-    <script>
-      function myFunction() {
-        alert("You have been successfully registered");
-      }
-       function Validate() {
-        var password = document.getElementById("psw").value;
-        var confirmPassword = document.getElementById("psw-repeat").value;
-        if (password != confirmPassword) {
-            alert("Passwords do not match.");
-            return false;
+    <button onclick=" Validate()" type="submit" class="registerbtn">Register</button>
+      <script type="text/javascript">
+        function Validate() {
+            var password = document.getElementById("psw").value;
+            var confirmPassword = document.getElementById("psw-repeat").value;
+            if (password != confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            alert("Successfully registered");
         }
-        return true;
-    }
-      </script>
-  </div>
-  
-  <div class="container signin">
-    <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+        </script>
   </div>
 </form>
+  <div class="container signin">
+    <p>Already have an account? <a href="file:///C:/Users/nitya/Desktop/mca4thsem/FED/html/login.html">Sign in</a>.</p>
+  </div>
 
+  
 </body>
 </html>
