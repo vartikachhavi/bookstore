@@ -83,9 +83,10 @@ span.psw {
         var password=document.getElementById("psw").value;
         var username=document.getElementById("uname").value;
         if(username == "vartika" && password == "1234")
-        
+        {
+          window.location="index.html";
           alert("Sucessful login");
-        
+        }
         else if(username != "vartika" || password != "1234")
         alert("Not registered yet OR Error filling the details");
         
