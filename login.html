@@ -71,16 +71,24 @@ span.psw {
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="Enter Username" id="uname" required/>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" id="psw" required/>
         
-    <button onclick="myFunction()" submit">Login</button>
+    <button onclick="myFunction();">Login</button>
 
     <script>
       function myFunction() {
-        alert("Not registered yet");
+        var password=document.getElementById("psw").value;
+        var username=document.getElementById("uname").value;
+        if(username == "vartika" && password == "1234")
+        
+          alert("Sucessful login");
+        
+        else if(username != "vartika" || password != "1234")
+        alert("Not registered yet OR Error filling the details");
+        
       }
       </script>
 
